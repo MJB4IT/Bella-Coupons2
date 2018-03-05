@@ -8,7 +8,7 @@ Stylist referral codes(aka coupons) are used to record the amount of sales commi
 
 
 # Author
-Michael Bowden - initial work - Bella Locs, LLC
+Michael Bowden - initial work - Bella Locs / MJB Transfers
 
 
 # Acknowledgments
