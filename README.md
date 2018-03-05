@@ -1,5 +1,5 @@
 # Bella-Coupons
-Handle the processing of referral coupons
+Handles the processing of referral coupons
 
 Stylist referral codes(aka coupons) are used to record the amount of sales commission to be paid by Bella.  In order to automate the computation of the stylist sales commission - there is a SQL run that will produce a report of each individual order where a valid referral code is used.  A separate Python program will access the CSV file produced from the SQL run, sum up the total of sales for each referral code and produce the amount of commission to be paid each stylist.
 
