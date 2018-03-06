@@ -22,6 +22,6 @@ print(c_name, '$' + str(round(c_total, 2)))
 
 # Close the file
 purchases.close()
-#this is the end again and again again
+#this is the end again and again again and again my friend on 3/6
 
 
