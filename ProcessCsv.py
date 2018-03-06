@@ -11,7 +11,7 @@ c_name = ''
 # Read each row from the spreadsheet loaded into csv_purchases
 for cp in csv_purchases:
 
-    if c_name != cp[1]:
+    if c_name != cp[1]:                            # Block ensures that all sales for each coupon are totaled
         print(c_name, '$' + str(round(c_total, 2)))
         c_name = cp[1]
         c_total = 0.00                             # Resets working variable once coupon value changes
@@ -22,7 +22,6 @@ print(c_name, '$' + str(round(c_total, 2)))
 
 # Close the file
 purchases.close()
-
-
+#this is the end again and again again
 
 
