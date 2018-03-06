@@ -13,7 +13,7 @@ def coupon_payouts(coupon: str, sales_total: float, commrate: float = .10)-> flo
     """Calculate the commission rate"""
     print('Commission payout for', coupon, 'is $' + str(round(sales_total * commrate, 2)), '\n')
 
-# Open and read each row from the spreadsheet into memory
+# Open and read each row from spreadsheet into memory
 with open('Coupon_Usage_Tracking-2.csv', 'r') as purchases:
     csv_purchases = csv.reader(purchases)
 
