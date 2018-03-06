@@ -14,7 +14,7 @@ for cp in csv_purchases:
     if c_name != cp[1]:
         print(c_name, '$' + str(round(c_total, 2)))
         c_name = cp[1]
-        c_total = 0.00                               # Resets working variable once coupon value changes
+        c_total = 0.00                             # Resets working variable once coupon value changes
     c_total += float(cp[2])
 
 # Prints the last row
